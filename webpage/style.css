@@ -1,0 +1,344 @@
+   * {
+       margin: 0px;
+       padding: 0px;
+       box-sizing: border-box;
+       font-family: "Baloo Bhaijaan 2", sans-serif;
+       font-optical-sizing: auto;
+       font-weight: weight;
+       font-style: normal;
+
+   }
+
+   nav {
+       display: flex;
+       flex: row;
+   }
+
+   .left {
+       /* background-color: aqua; */
+       display: flex;
+       flex: row;
+       width: 30%;
+       padding-left: 2rem;
+   }
+
+   .marvel {
+       padding-top: 2rem;
+       padding-left: .5rem;
+   }
+
+   .right {
+       /* background-color: violet; */
+       display: flex;
+       flex: row;
+       float: right;
+       width: 25%;
+       padding-top: 1rem;
+       padding-left: 5rem;
+       margin-left: 15rem;
+       font-size: 1.3rem;
+   }
+
+   .color {
+       padding-top: .5rem;
+       padding-left: .5rem;
+   }
+
+   .mid {
+       /* background-color: blueviolet; */
+       align-items: center;
+       justify-content: center;
+       width: 35%;
+       color: black;
+       padding-top: 2rem;
+       padding-left: 3rem;
+       word-spacing: 1.5rem;
+       font-size: 1.3rem;
+   }
+
+   a {
+       text-decoration: none;
+       color: black;
+   }
+
+   header {
+       /* background-color: violet; */
+       width: 50%;
+       /* margin-top: 10rem;
+       margin-left: 3rem; */
+   }
+
+   .welcome {
+       padding-bottom: 1.5rem;
+       font-size: 1.2rem;
+   }
+
+   .hey {
+       padding-bottom: 1.3rem;
+       font-size: 1.4rem;
+       word-spacing: .4rem;
+   }
+
+   .para {
+       word-spacing: .1rem;
+       padding-bottom: 5rem;
+       color: rgb(75, 75, 75);
+       font-size: 1.7rem;
+   }
+
+   .btn {
+       display: flex;
+       flex: row;
+       padding-left: 1rem;
+   }
+
+   .btn1 {
+       background-color: rgb(215, 215, 233);
+       border: 2px solid rgb(215, 215, 233);
+       border-radius: 2rem;
+       width: 29%;
+       display: flex;
+       flex: row;
+       padding: .8rem .6rem .5rem .6rem;
+       text-align: center;
+       justify-content: center;
+       margin-right: 1rem;
+   }
+
+   .btn2 {
+       background-color: rgb(52, 52, 52);
+       border: 2px solid rgb(52, 52, 52);
+       border-radius: 2rem;
+       width: 29%;
+       padding: .8rem .6rem .5rem .6rem;
+       text-align: center;
+       justify-content: center;
+       color: white;
+   }
+
+   aside {
+       max-width: 40%;
+       max-height: 120rem;
+       /* margin: 7rem 2rem 1rem 0rem; */
+       padding-bottom: 10rem;
+       float: right;
+   }
+
+   .section {
+       display: flex;
+       flex: row;
+       margin-top: 12rem;
+       margin-left: 2rem;
+       max-width: 120rem;
+   }
+   @media screen and (max-width:915px ) {
+    .section{
+        display: flex ;
+        flex-direction: column;
+    }
+    header{
+        width:100%;
+    }
+    aside{
+       width: 130%;
+       height: 100vh;
+       margin-top: 3rem;
+       margin-left: 8rem;
+    }
+   }
+   .page2 {
+       padding: 2rem;
+   }
+
+   .box1 {
+       display: flex;
+       flex: row;
+       margin: 5rem;
+   }
+
+   .grey {
+       background-color: rgb(216, 214, 214);
+       border-top-right-radius: .5rem;
+       border-top-left-radius: .5rem;
+   }
+
+   .container1 {
+       border-top-left-radius: .5rem;
+       border-top-right-radius: .5rem;
+       width: 60%;
+       margin: 5rem 2rem 2rem 13rem;
+       background-color: white;
+       box-shadow: 1px 1px 15px black;
+   }
+
+   .nav2 {
+       margin-top: 1.5rem;
+   }
+
+   .chat {
+       float: left;
+       margin-left: 1rem;
+   }
+
+   .links {
+       width: 50%;
+       float: right;
+       word-spacing: 1rem;
+   }
+
+   .image {
+       width: 50%;
+       margin-left: 8rem;
+       margin-bottom: 5rem;
+       box-shadow: 15px 12px 0px 4px solid rgb(255, 64, 96);
+       box-shadow: -15px -12px 0px -4px rgba(237, 41, 137, 1);
+       -webkit-box-shadow: -13px -12px 0px -6px rgba(237, 41, 137, 1);
+       -moz-box-shadow: -15px -12px 0px -9px rgba(237, 41, 137, 1);
+   }
+
+   .para2 {
+       width: 70%;
+       font-family: "Roboto", sans-serif;
+       font-weight: 100;
+       font-style: normal;
+       padding-bottom: 6rem;
+   }
+   .page3{
+color: rgb(36, 38, 56);
+display: flex;
+flex: row;
+/* margin-left: 10rem; */
+   }
+ 
+   .head{
+    display: flex;
+    flex: row ;
+   }
+   .head b{
+    margin-top: .4rem;
+    margin-left: .9rem ;
+    font-size: 1.1rem;
+   }
+   .page3 p{
+    font-size: 1.4rem;
+    margin-bottom: 4rem;
+   }
+   .part1{
+    /* background-color: aqua; */
+    width: 35%;
+    margin-right: 5rem;
+   }
+   .part2{
+    /* background-color: blueviolet; */
+    width: 35%;
+   }
+   .circle{
+    display: flex;
+    flex-direction: column;
+    width: 9%;
+    /* background-color: blue; */
+   }
+   .circle1 , .circle2 , .circle3{
+    background-color: rgb(36, 38, 56);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    border: 2px solid rgb(36, 38, 56);
+    border-radius: 100%;
+    width: 80%;
+    height: 15vh;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.circle1{
+    margin-top: 3rem;
+}
+.circle4 , .circle5 , .circle6{
+    background-color: rgb(36, 38, 56);
+    color: white;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    padding: 2rem;
+    border: 2px solid rgb(36, 38, 56);
+    border-radius: 100%;
+    width: 80%;
+    height: 15vh;
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.circle4{
+ margin-top: 3rem;   
+}
+.line{
+    width: 1%;
+    height: 13vh;
+margin-left: 5rem;
+border-left: 3px solid rgb(36, 38, 56);
+}
+.line2{
+    width: 1%;
+    height: 10vh;
+margin-left: 5rem;
+border-left: 3px solid rgb(36, 38, 56);
+}
+/* page4 */
+   .page4{
+    padding-bottom: 10rem;
+    display: flex;
+    margin-top: 4rem;
+   }
+   .container3{
+    /* background-color: blue; */
+width: 50%;
+margin-left: 8rem;
+   }
+   .box2{
+    background-color:rgb(36, 38, 56) ;
+    color: white;
+    width: 71.8%;
+    padding-bottom: 2rem;
+    margin-top: -.9rem;
+    padding-left: 1rem;
+   }
+   iframe{
+    margin-bottom: 0px;
+   }
+   img.icon1{
+    margin-left: 12.3rem;
+   }
+   img.icon2{
+    margin-left: 15rem;
+   }
+   img.icon3{
+    margin-left: 12.7rem;
+   }
+   .box3{
+    /* background-color: aqua; */
+    width: 50%;
+   }
+   .box3 input{
+    height: 3rem;
+    width: 32%;
+    /* margin-left: 2rem; */
+   }
+.input2{
+    margin-left: 1rem;
+}
+   .box3 button{
+    background-color: rgb(252, 198, 3);
+    color: white;
+    border: 2px solid rgb(252, 198, 3);
+    border-radius: 2rem;
+    width: 30%;
+    height: 10%;
+    padding: .4rem;
+    font-weight: 900;
+    font-size: 1.2rem;
+    margin-top: 2rem;
+    margin-right:14rem;
+    float: right;
+   }
+  
