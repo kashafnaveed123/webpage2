@@ -275,13 +275,13 @@ flex: row;
 .line{
     width: 1%;
     height: 13vh;
-margin-left: 5rem;
+margin-left: 4rem;
 border-left: 3px solid rgb(36, 38, 56);
 }
 .line2{
     width: 1%;
     height: 10vh;
-margin-left: 5rem;
+margin-left: 4rem;
 border-left: 3px solid rgb(36, 38, 56);
 }
 /* page4 */
